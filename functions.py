@@ -5,5 +5,5 @@ def check_passing(grade):
         return "Try again"
 
 grades = [85, 52, 90]
-for g in grades:
-    print(g, "-", check_passing(g))
+for grade in grades:
+    print(grade, "-", check_passing(g))
